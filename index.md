@@ -2,8 +2,8 @@
 layout: home
 ---
 
-
-<section class="section">
+<div class="index-content blog">
+    <div class="section">
     <ul class="artical-cate">
         <li class="on"><a href="/" title="study"><span>求知欲</span></a></li>
         <li style="text-align:center"><a href="/project" title="project"><span>项目经</span></a></li>
@@ -20,6 +20,7 @@ layout: home
         </li>
     {% endfor %}
     </ul>
-</section>
-<aside class="aside">
-</aside>
+    </div>
+    <div class="aside">
+    </div>
+</div>
