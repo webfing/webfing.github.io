@@ -54,7 +54,7 @@ layout:           default
             var page = $(".index-content")[0].className.split(/\s+/)[1];
             if (page){
                 $(".aside").css({
-                    'background-image': asideBg[page]
+                    'background-image': "url('"+asideBg[page]+"')"
                 });
             }
         })();
