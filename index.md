@@ -21,4 +21,5 @@ layout: home
     {% endfor %}
     </ul>
     </div>
+    {% include aside.html %}
 </div>
