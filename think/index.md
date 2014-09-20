@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="index-content opinion">
+<div class="index-content think">
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/" title="study"><span>求知欲</span></a></li>
