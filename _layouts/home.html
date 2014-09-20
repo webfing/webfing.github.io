@@ -59,9 +59,13 @@ layout:           default
                     $(".aside").css({
                         'background-image': "url('"+imgSite+asideBg[page]+"-b.jpg')"
                     });
-                }else{
+                }else if(1000<=winWidth && winWidth>480){
                     $(".aside").css({
                         'background-image': "url('"+imgSite+asideBg[page]+"-s.jpg')"
+                    });
+                }else{
+                    $(".aside").css({
+                        'background-image': "url('"+imgSite+asideBg[page]+"-s.jpg?imageView2/2/w/400')"
                     });
                 }
 
