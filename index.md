@@ -7,7 +7,7 @@ layout: home
     <ul class="artical-cate">
         <li class="on"><a href="/" title="study"><span>求知欲</span></a></li>
         <li style="text-align:center"><a href="/think" title="think"><span>控索癖</span></a></li>
-        <li style="text-align:right"><a href="/project" title="project"><span>项目经0</span></a></li>
+        <li style="text-align:right"><a href="/project" title="project"><span>项目经</span></a></li>
     </ul>
 
     <div class="cate-bar"><span id="cateBar"></span></div>
