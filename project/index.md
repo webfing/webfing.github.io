@@ -3,6 +3,7 @@ layout: home
 ---
 
 <div class="index-content project">
+    {% include aside.html %}
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/" title="study"><span>求知欲</span></a></li>
@@ -24,6 +25,5 @@ layout: home
         {% endfor %}
         </ul>
     </div>
-    {% include aside.html %}
 </div>
 
