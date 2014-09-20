@@ -46,16 +46,25 @@ layout:           default
         animateBar($('.artical-cate .on'),true);
 
         (function(){
+            var imgSite = 'http://webfing.qiniudn.com/';
             var asideBg = {
-                study: 'http://webfing.qiniudn.com/1.jpg',
-                think: 'http://webfing.qiniudn.com/2.1.jpg',
-                project: 'http://webfing.qiniudn.com/3.jpg'
+                study: 'study',
+                think: 'think',
+                project: 'project'
             };
+            var winWidth = $(window).width();
             var page = $(".index-content")[0].className.split(/\s+/)[1];
             if (page){
-                $(".aside").css({
-                    'background-image': "url('"+asideBg[page]+"')"
-                });
+                if (winWidth>1000){
+                    $(".aside").css({
+                        'background-image': "url('"+imgSite+asideBg[page]+"-b.jpg')"
+                    });
+                }else{
+                    $(".aside").css({
+                        'background-image': "url('"+imgSite+asideBg[page]+"-s.jpg')"
+                    });
+                }
+
             }
         })();
     });

@@ -226,6 +226,8 @@ position: relative;
     .aside-content {padding: 20px 12%;}
     .index-content .section {padding-top: 0;}
 
+    .index-content .aside {background-position: 50% bottom}
+
 
     /*.blog .aside,
     .project .aside,
