@@ -162,6 +162,10 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   border-top: 1px solid rgba(255, 255, 255, 0.14);
 }
 
+.aside-content .link li {display: inline-block;
+margin: 5px 1px 0 0;
+line-height: 1em;}
+
 .aside-content .link a{
   padding: 10px 20px;
   border: 1px solid #bf1827;
@@ -174,11 +178,13 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 color: #FFF;
 opacity: .8;
   -webkit-font-smoothing: antialiased; 
+  display: block;
+position: relative;
 }
 
 .aside-content .link a:hover {
-    background: #333;
-    color:#000;
+    background: #fff;
+    color:#333;
     text-decoration: none;
     }
 
