@@ -89,7 +89,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     display: none;
 }
 
-.blog .post{
+.index-content.post .aside{
     background-image:url('http://webfing.qiniudn.com/post.jpg');
 }
 /*.opinion .aside{
