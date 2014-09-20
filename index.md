@@ -35,13 +35,13 @@ layout: home
                             <li>
                                 <a href="">求知欲</a>
                             </li>
-                            </li>
+                            <li>
                                 <a href="">控索癖</a>
                             </li>
-                            </li>
+                            <li>
                                 <a href="">项目经</a>
                             </li>
-                            </li>
+                            <li>
                                 <a href="">关于我</a>
                             </li>
                         </ul>
