@@ -83,10 +83,16 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-size:cover;
     background-position:50% 50%;
 }
-/*.blog .aside{
-    background-image:url('http://webfing.qiniudn.com/1.jpg');
+
+
+.index-content.post  {
+    display: none;
 }
-.opinion .aside{
+
+.blog .post{
+    background-image:url('http://webfing.qiniudn.com/post.jpg');
+}
+/*.opinion .aside{
     background-image:url('http://webfing.qiniudn.com/2.1.jpg');
 }
 .project .aside{
@@ -228,6 +234,9 @@ position: relative;
 
     .index-content .aside {background-position: 50% bottom}
 
+    .index-content.post  {
+        display: block;
+    }
 
     /*.blog .aside,
     .project .aside,
