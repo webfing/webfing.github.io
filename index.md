@@ -24,7 +24,7 @@ layout: home
     <div class="aside">
         <div class="aside-wrap">
             <div class="aside-content">
-                <a href=""><img src="http://webfing.qiniudn.com/avartarB.jpg" alt=""></a>
+                <a href="" class="avartar"><img src="http://webfing.qiniudn.com/avartarB.jpg" alt=""></a>
                 <h1>悟道前端</h1>
                 <small>闻道有先后，术业有专攻</small>
                 <hr>
