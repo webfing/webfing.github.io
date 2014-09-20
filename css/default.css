@@ -83,7 +83,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-size:cover;
     background-position:50% 50%;
 }
-.blog .aside{
+/*.blog .aside{
     background-image:url('http://webfing.qiniudn.com/1.jpg');
 }
 .opinion .aside{
@@ -91,7 +91,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 }
 .project .aside{
     background-image:url('http://webfing.qiniudn.com/3.jpg')
-}
+}*/
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 
 .index-content .artical-list { width:70%; margin:0 auto; }
@@ -191,15 +191,21 @@ position: relative;
     display: none;
 }
 
+@media screen and (max-width: 480px){
 
+    .aside-content .avartar img {width:80px;height:80px;border-width:3px;margin-bottom: 10px;}
+    .aside-content h1 {font-size: 2.5em;}
+    .aside-content .brief, .aside-content hr {display: none;}
+    .index-content .cate-bar {margin-bottom: 50px;}
+}
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
     body {font-size:14px;}
     #content {width:85%;margin:100px auto 50px; }
 
     h2{font-size:20px;}
     h3{font-size:16px;}
-    embed {display:none;}
+    /*embed {display:none;}*/
 
     .entry-title,.entry-title a {font-size:24px;}
     .entry-date {margin-bottom:40px;}
@@ -209,15 +215,21 @@ position: relative;
     .sidenav {display:none;}
     .entry {float:none;width:auto;background:transparent;padding:0;box-shadow:none;}
 
-    .index-content .aside { position:relative; width:100%; height:300px; max-width:none; }
+    .index-content .aside { position:relative; width:100%; height:auto; max-width:none; }
     .index-content .section { margin-left:0; padding-right:0; }
     .index-content .section ul { width:85%; }
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; }
 
-    .blog .aside,
+    .aside-content .link {display: none;}
+    .aside-content p {margin-bottom: 15px;}
+    .aside-content {padding: 20px 12%;}
+    .index-content .section {padding-top: 0;}
+
+
+    /*.blog .aside,
     .project .aside,
-    .opinion .aside {display:none;background-image:none;}
+    .opinion .aside {display:none;background-image:none;}*/
 }
 
 @media (max-width: 1020px){
