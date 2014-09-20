@@ -26,4 +26,10 @@ layout: home
     </div>
     <div class="aside">
     </div>
+
+---
+layout: aside
+---
+
+
 </div>
