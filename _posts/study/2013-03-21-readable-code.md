@@ -2,7 +2,7 @@
 layout: post
 title: 编写可读代码的艺术
 description: 将《The Art of Readable Code》的读书笔记和一点自己的认识总结起来写就这么一篇博客，强烈推荐此书。
-category: blog
+category: study
 ---
 
 这是《The Art of Readable Code》的读书笔记，再加一点自己的认识。强烈推荐此书：

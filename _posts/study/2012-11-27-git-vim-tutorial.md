@@ -2,7 +2,7 @@
 layout: post
 title: Git时代的VIM不完全使用教程
 description: 在Git流行的时代，VIM的生态环境也有了长足的进步，令人感动。
-category: blog
+category: study
 ---
 
 最近整理了VIM的配置，换上插件管理的神器-----[Vundle][2]，由他引发的VIM生态环境的改善，堪称完美。遂打算写一份简单的教程，分享Git时代VIM新世界的美丽动人之处。**对VIM有基础的同学，可直接跳至插件管理部分。**

@@ -5,9 +5,10 @@ layout: home
 <div class="index-content project">
     <div class="section">
         <ul class="artical-cate">
-            <li><a href="/"><span>Blog</span></a></li>
-            <li style="text-align:center"><a href="/opinion"><span>Opinion</span></a></li>
-            <li class="on" style="text-align:right"><a href="/project"><span>Project</span></a></li>
+            <li><a href="/" title="study"><span>求知欲</span></a></li>
+            <li style="text-align:center"><a href="/project" title="project"><span>项目经</span></a></li>
+            <li class="on" style="text-align:right"><a href="/think" title="think"><span>控索癖</span></a></li>
+
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
