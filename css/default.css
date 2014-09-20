@@ -145,9 +145,45 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 
 
 /**************侧边栏个人信息**************/
-.aside-wrap {width:100%;height:100%;display: table;}
+.aside-wrap {width:100%;height:100%;display: table; 
+  background-color: rgba(61, 66, 96, 0.6);
+  background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8));
+  background-image: linear-gradient(140deg,rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8)); 
+}
 .aside-content {display: table-cell;vertical-align: middle;padding: 0 12%;text-align: center;}
-.avartar img {border-radius: 50%; border: 3px solid #FFF; box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);}
+.aside-content, .aside-content a {
+    letter-spacing: 3px; color: #cccccc; -webkit-font-smoothing: antialiased;
+}
+.avartar img {border-radius: 50%; border: 5px solid #FFF; box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);width:120px;height:120px;margin-bottom: 20px;}
+.aside-content .brief {font-size: 1.2em;  }
+.aside-content h1 {font-size: 3em;margin-bottom: 10px;}
+.aside-content hr {border:none;width: 60%;
+  margin: 20px auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.aside-content .link a{
+  padding: 10px 20px;
+  border: 1px solid #bf1827;
+  border-radius: 20px;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: none;
+  border-color: #FFF;
+color: #FFF;
+opacity: .8;
+  -webkit-font-smoothing: antialiased; 
+}
+
+.aside-content .link a:hover {
+    background: #333;
+    color:#000;
+    text-decoration: none;
+    }
+
+
+
 
 
 @media screen and (max-width: 750px){

@@ -28,14 +28,20 @@ layout: home
                 <h1>悟道前端</h1>
                 <small>闻道有先后，术业有专攻</small>
                 <hr>
-                <p class="brief">生于1990，毕业于不知名学校的非专业码农，希望成为前端翘楚，并一直努力着</p>
+                <p class="brief">生于1990，毕业于非知名学校的非专业码农，希望成为前端翘楚，并一直努力着</p>
                 <div class="link">
                     <nav>
                         <ul>
                             <li>
                                 <a href="">求知欲</a>
+                            </li>
+                            </li>
                                 <a href="">控索癖</a>
+                            </li>
+                            </li>
                                 <a href="">项目经</a>
+                            </li>
+                            </li>
                                 <a href="">关于我</a>
                             </li>
                         </ul>
