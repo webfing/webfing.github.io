@@ -162,11 +162,12 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   border-top: 1px solid rgba(255, 255, 255, 0.14);
 }
 
-.aside-content .link li {display: inline-block;
+.aside-content .link {margin-bottom: 20px;}
+.aside-content  li {display: inline-block;
 margin: 5px 1px 0 0;
 line-height: 1em;}
 
-.aside-content .link a{
+.aside-content li a{
   padding: 10px 20px;
   border: 1px solid #bf1827;
   border-radius: 20px;
@@ -182,13 +183,22 @@ opacity: .8;
 position: relative;
 }
 
-.aside-content .link a:hover {
+.aside-content li a:hover {
     background: #fff;
     color:#333;
     text-decoration: none;
     }
+.aside-content .social li a {
+  border: 0px;
+  padding: 6px 8px 6px 9px; }
 
+.aside-content .social i {
+    font-size:22px;
+}
 
+.aside-content .social .label {
+    display: none;
+}
 
 
 
