@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="index-content blog">
+<div class="index-content study">
     {% include aside.html %}
     <div class="section">
     <ul class="artical-cate">
