@@ -32,7 +32,7 @@ layout: home
 
 <script>
     $(function(){
-
+        window.disqus_shortname = 'cpjmj'
         $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js');
 
     })
