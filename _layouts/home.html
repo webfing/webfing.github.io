@@ -50,11 +50,16 @@ layout:           default
             var asideBg = {
                 study: 'study',
                 think: 'think',
-                project: 'project'
+                project: 'project',
+                about: 'about'
             };
             var winWidth = $(window).width();
             var page = $(".index-content")[0].className.split(/\s+/)[1];
-            if (page){
+            if (page == 'about'){
+                $(".aside").css({
+                    'background-image': "url('"+imgSite+asideBg[page]+".jpg')"
+                });
+            }else if (page){
                 if (winWidth>1000){
                     $(".aside").css({
                         'background-image': "url('"+imgSite+asideBg[page]+"-b.jpg')"
