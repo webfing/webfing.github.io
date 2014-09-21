@@ -197,6 +197,15 @@ position: relative;
     display: none;
 }
 
+/**************关于我页面**************/
+.brief p {margin-bottom: 30px;}
+.brief li {line-height: 2em;}
+.brief li span {width: 80px;display: inline-block;}
+.brief {margin-bottom: 30px;}
+
+
+
+
 @media screen and (max-width: 480px){
 
     .aside-content .avartar img {width:80px;height:80px;border-width:3px;margin-bottom: 10px;}
