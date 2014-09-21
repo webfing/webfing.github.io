@@ -5,7 +5,6 @@ layout: home
 <div class="index-content about">
     {% include aside.html %}
     <div class="section">
-
         <div id="content">
             <div class="about">
                 <h2>关于King</h2>
@@ -21,12 +20,10 @@ layout: home
                     <li><span>avatar:</span>100110101011011101101010111011011</li>
                 </ul>
             </div>
+            <div id="disqus_container">
+                <div id="disqus_thread"></div>
+            </div>
         </div>
-
-        <div id="disqus_container">
-            <div id="disqus_thread"></div>
-        </div>
-
     </div>
 </div>
 
