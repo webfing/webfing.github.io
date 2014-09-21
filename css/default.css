@@ -29,7 +29,7 @@ body .hide{display:none;}
 .left,.right{display:inline;}
 .left{float:left;}
 .right{float:right;}
-
+pre.prettyprint, pre.prettyprint code {word-wrap: break-word;}
 
 /***********default settings**********/
 body {font-family: "微软雅黑","Arial","Helvetica","sans-serif";font-size:16px;}
@@ -213,6 +213,10 @@ position: relative;
     .aside-content h1 {font-size: 2.5em;}
     .aside-content .brief, .aside-content hr {display: none;}
     .index-content .cate-bar {margin-bottom: 50px;}
+    pre.prettyprint, pre.prettyprint code {word-wrap: normal;}
+    .entry pre ol li{margin-bottom:0;line-height:1em;}
+    .entry pre code{line-height:1em;font-size:12px;}
+
 }
 
 @media screen and (max-width: 1000px){
@@ -226,14 +230,15 @@ position: relative;
     .entry-title,.entry-title a {font-size:24px;}
     .entry-date {margin-bottom:40px;}
     .entry img{max-width:90%;}
-    .entry pre ol li{margin-bottom:0;line-height:1em;}
-    .entry pre code{line-height:1em;font-size:12px;}
+    .entry pre ol li{margin-bottom:0;line-height:1.2em;}
+    .entry pre code{line-height:1.2em;font-size:16px;}
     .sidenav {display:none;}
     .entry {float:none;width:auto;background:transparent;padding:0;box-shadow:none;}
 
     .index-content .aside { position:relative; width:100%; height:auto; max-width:none; }
     .index-content .section { margin-left:0; padding-right:0; }
     .index-content .section ul { width:85%; }
+    .index-content .section .brief ul {width:100%;}
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; }
 
