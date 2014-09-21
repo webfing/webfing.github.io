@@ -5,14 +5,6 @@ layout: home
 <div class="index-content about">
     {% include aside.html %}
     <div class="section">
-        <ul class="artical-cate">
-            <li><a href="/" title="study"><span>求知欲</span></a></li>
-            <li style="text-align:center"><a href="/think" title="think"><span>探索癖</span></a></li>
-            <li class="on" style="text-align:right"><a href="/project" title="project"><span>项目经</span></a></li>
-
-        </ul>
-
-        <div class="cate-bar"><span id="cateBar"></span></div>
 
         <div id="content">
             <div class="about">
@@ -31,8 +23,17 @@ layout: home
             </div>
         </div>
 
-        <div id="disqus_thread"></div>
+        <div id="disqus_container">
+            <div id="disqus_thread"></div>
+        </div>
 
     </div>
 </div>
 
+<script>
+    $(function(){
+
+        $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js');
+
+    })
+</script>
