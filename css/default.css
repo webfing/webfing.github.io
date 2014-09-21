@@ -98,7 +98,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .project .aside{
     background-image:url('http://webfing.qiniudn.com/3.jpg')
 }*/
-.index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
+.index-content .section { margin-left:30%; padding-top:80px;}
 
 .index-content .artical-list { width:70%; margin:0 auto; }
 .index-content .artical-list li { margin-bottom:70px; }
@@ -116,6 +116,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 
 .index-content .cate-bar { height:3px; width:70%; margin:0 auto;margin-bottom:100px; }
 .index-content #cateBar { display:inline-block; zoom:1; height:3px; background:red; position:relative; width:0; }
+.index-content #content {width:70%; margin:0 auto;}
 
 /***************Wiki Style*****************/
 .wiki h2{cursor:pointer;}
@@ -199,8 +200,8 @@ position: relative;
 
 /**************关于我页面**************/
 .brief p {margin-bottom: 30px;}
-.brief li {line-height: 2em;}
-.brief li span {width: 80px;display: inline-block;}
+.brief li {line-height: 2em;word-wrap: break-word;}
+.brief li span {width: 90px;display: inline-block;font-weight: bold;text-align: right;margin-right: 15px;}
 .brief {margin-bottom: 30px;}
 
 
@@ -246,6 +247,9 @@ position: relative;
     .index-content.post  {
         display: block;
     }
+
+    .index-content #content {width:85%; margin-top: 50px;}
+
 
     /*.blog .aside,
     .project .aside,
