@@ -12,10 +12,12 @@ description: 在项目中我们经常遇到控制表单输入的需求，比如�
 表单输入交互相关的事件有：onkeydown, onkeyup, onkeypress, onfocus, onblur。但是要监听输入时的事件只有onkeydown, onkeyup, onkeypress，下面一一分析这三个事件
 
 可以从下面两个纬度思考：
+
 * 不管按了什么键，只关注输入的值
 * 不管输入什么值，只关注按的键
 
 表现在代码层，就是：
+
 * 前者只关注输入框的值`this.value`
 * 后者关注事件对象的`event.keyCode/event.which`
 
