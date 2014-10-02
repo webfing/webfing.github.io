@@ -51,6 +51,44 @@ h4+pre, h3+pre { margin-top:20px; }
 pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
 pre ol{margin-left:25px;list-style-type:decimal;}
 
+table {
+    background-color: transparent
+}
+
+th {
+    text-align: left
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px
+}
+
+.table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd
+}
+
+.table>caption+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>th,.table>thead:first-child>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>td {
+    border-top: 0
+}
+
+.table>tbody+tbody {
+    border-top: 2px solid #ddd
+}
+
+.table .table {
+    background-color: #fff
+}
+
 /************layout style*****************/
 #content {width:1060px;margin:90px auto 60px;min-height:400px;height:auto !important;height:400px; }
 
