@@ -236,6 +236,3 @@ description: 需求背景：电商内部BS版ERP系统-订单管理界面。系�
 
  [1]: http://www.webfing.com/wp-content/uploads/2013/12/sort.jpg
  [2]: http://www.webfing.com/ext4-grid-optimize/
-
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"
-[1]:    {{ page.url}}  ({{ page.title }})

@@ -160,5 +160,3 @@ category: study
 
  [1]: http://zh.wikipedia.org/wiki/%E7%B4%A0%E6%95%B0 "素数-维基百科"
  [2]: https://app.yinxiang.com/shard/s1/sh/ad335006-67db-4540-9ed7-9309dd641464/e4da896113db93181d0f6c53f19f2198/res/c7ff8851-14ff-4717-957d-40a86a655118/%EF%BF%BC%EF%BF%BCperformance.jpg?resizeSmall&width=832&alpha=
-
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"

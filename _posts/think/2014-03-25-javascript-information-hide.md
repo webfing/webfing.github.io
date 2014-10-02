@@ -263,5 +263,3 @@ description: 大多数码农应该都会有这样的成长经历：刚开始技�
     })();
 
  [1]: http://easyjs.org/
-
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"
