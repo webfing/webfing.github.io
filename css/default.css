@@ -39,7 +39,7 @@ a.external {padding-right:13px;background:url('/images/icons.gif') no-repeat rig
 a.external:hover {background-position:right -15px;}
 .entry-title,.entry-title a {font-size:30px;font-weight:bold;margin-bottom:6px;color:#000;text-align:center;word-wrap: break-word;}
 .entry-title a:hover {text-decoration:none;}
-.entry-date {text-align:center;color:#999;margin-bottom:60px;font-size:14px;}
+.entry-date {text-align:center;color:#999;margin-bottom:30px;font-size:14px;}
 
 h2 {font-size:22px;font-weight:bold;margin-bottom:25px;}
 h3 {font-size:18px;font-weight:bold;margin-bottom:25px;}
@@ -51,47 +51,58 @@ h4+pre, h3+pre { margin-top:20px; }
 pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
 pre ol{margin-left:25px;list-style-type:decimal;}
 
-table {
+
+
+/************layout style*****************/
+#content {width:1060px;margin:90px auto 60px;min-height:400px;height:auto !important;height:400px; }
+
+#content table {
     background-color: transparent
 }
 
-th {
+#content th {
     text-align: left
 }
 
-.table {
+#content table {
     width: 100%;
     max-width: 100%;
     margin-bottom: 20px
 }
 
-.table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td {
+#content table>thead>tr>th,
+#content table>tbody>tr>th,
+#content table>tfoot>tr>th,
+#content table>thead>tr>td,
+#content table>tbody>tr>td,
+#content table>tfoot>tr>td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 1px solid #ddd
 }
 
-.table>thead>tr>th {
+#content table>thead>tr>th {
     vertical-align: bottom;
     border-bottom: 2px solid #ddd
 }
 
-.table>caption+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>th,.table>thead:first-child>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>td {
+#content table>caption+thead>tr:first-child>th,
+#content table>colgroup+thead>tr:first-child>th,
+#content table>thead:first-child>tr:first-child>th,
+#content table>caption+thead>tr:first-child>td,
+#content table>colgroup+thead>tr:first-child>td,
+#content table>thead:first-child>tr:first-child>td {
     border-top: 0
 }
 
-.table>tbody+tbody {
+#content table>tbody+tbody {
     border-top: 2px solid #ddd
 }
 
-.table .table {
+#content table table {
     background-color: #fff
 }
-
-/************layout style*****************/
-#content {width:1060px;margin:90px auto 60px;min-height:400px;height:auto !important;height:400px; }
-
 
 /****************entry style**************/
 .sidenav { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; box-shadow:0 1px 4px #ccc; }
@@ -105,7 +116,7 @@ th {
 .entry ul li{margin-bottom:5px;list-style:disc;line-height:1.8em;}
 .entry ol{margin-bottom:25px;margin-left:25px;}
 .entry ol li{margin-bottom:5px;list-style:decimal;line-height:1.1em;}
-.entry blockquote{margin-left:25px;font-size:14px;font-style:italic}
+.entry blockquote{padding-left:15px;border-left:5px solid #aaa;font-size:14px;}
 .entry img{max-width:670px;display:block;margin:10px auto;}
 
 
