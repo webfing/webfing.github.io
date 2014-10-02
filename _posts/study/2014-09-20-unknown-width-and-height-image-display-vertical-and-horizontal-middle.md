@@ -41,7 +41,7 @@ CSS样式部分：
 
 效果图：
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/f0c484e7-7403-4eb9-9c59-47fb11dad581/17225da278a74687e9cca13263938de7/res/c1450050-564d-4296-b622-32e39222c3be/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-07-05%20%E4%B8%8B%E5%8D%8812.17.02.png?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/vertical-1.png)
 
 
 ### 法二(图片包裹一层)
@@ -152,7 +152,7 @@ CSS样式部分：
 
 效果图：
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/f0c484e7-7403-4eb9-9c59-47fb11dad581/17225da278a74687e9cca13263938de7/res/5c151ee1-382e-4acc-a351-a97ae483aa94/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-07-05%20%E4%B8%8B%E5%8D%8812.00.34.png?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/vertical-2.png)
 
 注意：
 * 这里是使用了一个兄弟元素来撑大了行内元素的排版区域，一个关键点就是`height:100%;`
@@ -284,7 +284,5 @@ CSS代码：
 
 弹性盒模型布局兼容性：
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/f0c484e7-7403-4eb9-9c59-47fb11dad581/17225da278a74687e9cca13263938de7/res/e10a372a-1c8d-4795-b98f-978bd0409a29/1404803149456.png?resizeSmall&width=832&alpha=)
-
-
+![Alt text](http://king-images.qiniudn.com/vertical-3.png)
 

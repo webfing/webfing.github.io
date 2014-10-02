@@ -57,9 +57,9 @@ wp-markdown这款插件很好用，安装和设置也很方便，但想高速无
 现在使用Mac截图功能截取出来的图片就不带阴影了。而且窗口圆角也有透明的。
 
  [1]: http://webfing.github.io/ext4-grid-sort/
- [2]: https://app.yinxiang.com/shard/s1/sh/d5b4e4fa-e327-46a9-b31c-a8309fb20615/7e39e2517aabe032310df67014d4d477/res/fc8ece06-c225-47b4-833b-75f5eec1a80b/erp.jpg?resizeSmall&width=832&alpha=
- [3]: https://app.yinxiang.com/shard/s1/sh/d5b4e4fa-e327-46a9-b31c-a8309fb20615/7e39e2517aabe032310df67014d4d477/res/a0cb82f1-f1c6-4f61-95ee-5cd49fcff3c7/marsedit.png?resizeSmall&width=832&alpha=
- [4]: https://app.yinxiang.com/shard/s1/sh/d5b4e4fa-e327-46a9-b31c-a8309fb20615/7e39e2517aabe032310df67014d4d477/res/cc1a33f8-50b5-4d4a-b348-54fcb55b9ba7/mou.png?resizeSmall&width=832&alpha=
- [5]: https://app.yinxiang.com/shard/s1/sh/d5b4e4fa-e327-46a9-b31c-a8309fb20615/7e39e2517aabe032310df67014d4d477/res/18c7ddfe-8069-4164-a305-3b39294b596a/radius.jpg?resizeSmall&width=832&alpha=
+ [2]: http://king-images.qiniudn.com/erp.jpg
+ [3]: http://king-images.qiniudn.com/marsedit.png
+ [4]: http://king-images.qiniudn.com/mou.png
+ [5]: http://king-images.qiniudn.com/radius.jpg
 
 

@@ -14,14 +14,14 @@ Ext庞大且复杂，单单一个组件就可能有一百多个个方法和事�
 
 ### 代码结构
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/a44f2a45-0486-4273-8593-888e2e822017/9909dc30b92f203dff520b058bdac75a/res/ce035766-d6f8-4fb3-b7b7-e1a3e16d1f7a/tree2.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/tree2.jpg)
 
 
 订单管理页要展示的数据比较多，交互也比较频繁，为了尽可能多得显示订单，决定把这个订单管理模块独立成为一个子app，代码放于order文件夹下。
 
 ### 主界面
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/a44f2a45-0486-4273-8593-888e2e822017/9909dc30b92f203dff520b058bdac75a/res/f1807bc9-3320-49e5-ac7b-2ec5d3dafbae/order.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/order.jpg)
 
 
 可以看出来，这个模块分为上中下三块内容，顶部是订单搜索表单，可以跟据时间和订单的各列信息搜索；中间的一块是最重要的订单表格，有很多行和列，一屏显示不完，所以有滚动条，订单表格上有一排工具按扭，多数的交互在这里；底部在选中某一订单后才显示，展示的是所选订单对应的商品信息。 主界面的视图：
@@ -54,24 +54,24 @@ Ext庞大且复杂，单单一个组件就可能有一百多个个方法和事�
 
 3.  批量删除：删除订单
 
- ![Alt text](https://app.yinxiang.com/shard/s1/sh/a44f2a45-0486-4273-8593-888e2e822017/9909dc30b92f203dff520b058bdac75a/res/f023f83a-6bfb-4171-99af-3beebcde0693/comfirm.jpg?resizeSmall&width=832&alpha=)
+ ![Alt text](http://king-images.qiniudn.com/comfirm.jpg)
 
 
 4.  批量改状态：点击这里后可以弹出一个窗口，批量修改订单信息
 
- ![Alt text](https://app.yinxiang.com/shard/s1/sh/a44f2a45-0486-4273-8593-888e2e822017/9909dc30b92f203dff520b058bdac75a/res/cece189b-b1d8-4078-96a3-1653fbddb06f/batch.jpg?resizeSmall&width=832&alpha=)
+ ![Alt text](http://king-images.qiniudn.com/batch.jpg)
 
 
 5.  联想单号：快速公司的物流单号都有一定的规侓，如果每次手动一个个输入，效率太低了，所以可以跟据一个开始单号，联想出后续的单号
 
- ![Alt text](https://app.yinxiang.com/shard/s1/sh/a44f2a45-0486-4273-8593-888e2e822017/9909dc30b92f203dff520b058bdac75a/res/ee53f919-d24d-4e89-90c5-3319c5a6bb6f/express.jpg?resizeSmall&width=832&alpha=)
+ ![Alt text](http://king-images.qiniudn.com/express.jpg)
 
 
 6.  导入进销存：审单人员审核某订单通个后可以点击这个按钮来提交订单，这样，下一个环节的物流人员就能处理这个订单了
 
 7.  加产品: 给订单增加赠品
 
- ![Alt text](https://app.yinxiang.com/shard/s1/sh/a44f2a45-0486-4273-8593-888e2e822017/9909dc30b92f203dff520b058bdac75a/res/a72a8d9e-820b-48f4-b6a4-e6a7d944e7b8/good.jpg?resizeSmall&width=832&alpha=)
+ ![Alt text](http://king-images.qiniudn.com/good.jpg)
 
 
 ### 通用逻缉单元提取
@@ -357,4 +357,3 @@ Ext庞大且复杂，单单一个组件就可能有一百多个个方法和事�
 ## 后记
 
 在开发这个erp系统时，不断发现有重复的逻缉单元，有的代码则自己写着都觉得恶心不能直视，所以就一步步的优化和抽象，最终就成这样了，以后再有什么新增或要修改的业务使用一段很简短的代码就可以搞定了，过个几个月再修改，代码的逻缉也比较好理解。
-

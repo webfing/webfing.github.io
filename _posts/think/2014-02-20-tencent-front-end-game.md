@@ -14,7 +14,7 @@ description: 在网上看到腾讯的挑战游戏，本着试试的态度，题�
 
 > “开个门而已，竟然还要抓包……”
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/d91171b0-9a10-4810-8083-45494123d3ad/1.1.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.1.jpg)
 
 
 点击“闯关”，弹出一个表单，先不管代码啥的，按正常逻辑输入个人信息试试有啥反应，输入完弹出提示：
@@ -23,12 +23,12 @@ description: 在网上看到腾讯的挑战游戏，本着试试的态度，题�
 
 程序提示我们用抓包工具，这是要看http请求啦？使用**小提琴(wins)** or **charles(mac)**，太麻烦了，咱先使用chrome的DevTools看看
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/7679b6ce-2700-4490-bca3-1212f11551b2/1.2.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.2.jpg)
 
 
 请求返回的数据结果告诉我们：没有设置隐藏域的值，好吧，看来有隐藏的input，查看下表单的dom结构：
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/c378e46b-ee8d-46e4-b65e-afa14117985d/1.3.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.3.jpg)
 
 果然有一个隐藏输入框，name属性是timestamp(时间戳)，这么说应该是要在这里输入当前时间，在DevTools的控制台输出看下当前时间戳：
 
@@ -36,29 +36,29 @@ description: 在网上看到腾讯的挑战游戏，本着试试的态度，题�
 
 好的，再把这个值写入到隐藏的输入框中
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/1e7dfbf4-ea20-442e-b1f1-31345700868a/1.4.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.4.jpg)
 
 
 然后再点打开提交表单，yes! 成功了，第一关通过
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/51df808b-6792-4e9f-a29c-367c1492d688/1.5.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.5.jpg)
 
 
 ## 第二关：意外
 
 > “哥们是不是注定要拯救世界，这种事也被我碰上 = = 2:162 旋转原点，那是左上方吧?...又好像不是 2:162 好像在哪看过这个CSS3企鹅……”
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/90546357-d9d6-40bb-b10b-2a1bc20578fc/2.1.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/2.1.jpg)
 
 
 第二关是使用css3画腾讯的logo，左边的圆很容易就想出来了，可是右边的那个衣角，我的妈呀，这可是一堆css3属性才能写出来的呀，还可能要带一堆前缀，时间一秒秒跑，我的个急啊，没办法，硬写是来不急了，先从DevTools看看源代码吧，看看有啥提示不
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/d7a76bf0-5e02-4975-82a4-edea435fbf0d/2.2.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/2.2.jpg)
 
 
 真是柳暗花明又一村，出现注释了，果断打开注释中的网址，原来是腾讯AlloyTeam团队博客的一篇文章，讲解很详细，粗略看了下，文章中没有清淅得给出衣角的实现代码，想了想，不如直接看logo的css代码：
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/2b593866-5a43-4914-b595-c9c2cc8390ea/2.3.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/2.3.jpg)
 
 
     border-top: 20px solid transparent;
@@ -76,29 +76,29 @@ description: 在网上看到腾讯的挑战游戏，本着试试的态度，题�
 
 把这又长又难写难记的代码复制and粘贴，果断通关了
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/51df808b-6792-4e9f-a29c-367c1492d688/1.5.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.5.jpg)
 
 
 
 ## 第三关：交锋
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/a0877273-07f5-4593-b5a8-85b953f60ec1/3.1.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/3.1.jpg)
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/84d0fc45-df56-4c55-ab87-5c5481c05aca/3.2.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/3.2.jpg)
 
 
 从界面来看，这一关是要打游戏啰，点击跳到坦克机器人大战游戏，之前也有了解过，知道是AlloyTeam团队开发的html5游戏，要注册太麻烦了，而且之前也没玩过，直觉告诉我这是要通过写代码来玩游戏，我着急啊，难不成英雄止步于此了，好吧，还是一直即往得从页面的源代码入写看有什么收获
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/08956fc0-c07d-48b8-8cb7-db4c9d05a182/3.3.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/3.3.jpg)
 
 
 对比下前三关的源代码，发现在这块script标签中的代码都不一样，而且都是变量名混淆了，应该是程序的主要逻辑段，到webStorm里格式化代码看下有啥：
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/a765bf0c-7281-4b16-b678-53e9d5586dbd/3.4.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/3.4.jpg)
 
 
 虽然代码混淆了，但是代码的大体意思还是能了解一二的，
@@ -127,15 +127,15 @@ description: 在网上看到腾讯的挑战游戏，本着试试的态度，题�
 
 思考：难道是腾讯这个游戏的设计漏洞，应该也不可能，写得这么明显的window；那跳到坦克大战是为何，而且即使坦克大战赢了又怎么把信息传递回来呢？代码中也没有写，只有个window.open的弹出新窗口代码，没有回应代码，好吧，只能理解成这关是故意这样设计的，一是为了考考游戏者的hack思维；二是顺便给游戏做下推广。我个人是这样思解的。
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/51df808b-6792-4e9f-a29c-367c1492d688/1.5.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.5.jpg)
 
 
 ## 第四关：房门
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/8304e455-d7ae-446f-ac65-aa42c6ccc6e3/4.1.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/4.1.jpg)
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/94cfd776-299d-47f2-8327-1780e3aba11b/4.2.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/4.2.jpg)
 
 
 这一关是考js基础知识了
@@ -157,14 +157,14 @@ description: 在网上看到腾讯的挑战游戏，本着试试的态度，题�
 
 ok，第四关打通
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/51df808b-6792-4e9f-a29c-367c1492d688/1.5.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/1.5.jpg)
 
 
 ## 第五关：资料
 
 > “这丫的是谁建的文件夹？ 5:147 看来要按一定顺序打开，使得保密等级最高，才能找到我要的资料。”
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/1a371663-730b-4fe8-a28f-d39b98419b19/5.1.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/5.1.jpg)
 
 
 咯，不会是考数学思维吧，这么多年了，排列组合都还给了老师；上大学时有们叫《运筹学》的课，好像就有很多研究这种最短路线，最长路线的问题，可惜我没学好，没办法，只能硬攻！
@@ -174,7 +174,7 @@ ok，第四关打通
 数学公式不太行，咱就走代码这条路，老地方：
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/16f3cfe1-f107-49d1-b5bd-cb799b1ff57c/5.2.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/5.2.jpg)
 
 
 格式化代码，代码有70多行，比较多，这里列出关键的部分：
@@ -228,7 +228,7 @@ ajax请求函数t:
 这个事件回调函数里引用了变量b和q，按照闭包的机制，为了能够访问到外部的变量，这些外部变量在执行完不会被内存释放，那就在运行期通过DevTools来看看，选择一个数值按钮，查看这个dom绑定有哪些事件:
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/f8c17411-5999-4acd-9f52-6210037e76d6/5.3.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/5.3.jpg)
 
 
 一层层展开，果然发现了<function scope>闭包，展开，豁然开朗局部变量e和s都出来了；可以看出这个最大值就是2114（通过源码可以知道，这个值是随机生成的，每次刷新页面得到的值是不一样）
@@ -247,23 +247,22 @@ ajax请求函数t:
 
 把高中时做数学题的思维运用在这里试试，要找到路径总值最大的线路，那么这条路径中肯定有很多个点都是比较大的值，何不先把每层的最大值先标注出来，看看有啥规律
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/cdcda51d-3b06-465d-8e0c-4453b43b2be2/5.4.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/5.4.jpg)
 
 
 很明显路线应该是顶往左下来，跟据每行最大值分布，可以试着走走，发现还是有很多组合项，看来还不行，继续观察，既然断言了右边的路是走不通的，何不把右边那些不可能的点去掉，然后在那一行重新选择一个尽量靠左边些的较大的点，通过进一步缩小范围并取两个可能的点选最优的中间路线，最终可以得出如下三条线路（虽然每次刷新页面各个点的值是随机生成的，但是这个分析原理都可以适用）
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/95abb6cf-f936-47f1-ac0c-3a08da725f5a/5.5.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/5.5.jpg)
 
 
 比较三条线路值，最大值就出来了，最大值路线如下
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/49181da5-a62c-4fef-9401-6b41035cb8c0/5.6.jpg?resizeSmall&width=832&alpha=)
+![Alt text](http://king-images.qiniudn.com/5.6.jpg)
 
 
 ok，大功告成，过五关斩六将啊
 
 
-![Alt text](https://app.yinxiang.com/shard/s1/sh/394cf147-f7d0-4405-bb4e-07d987a93271/b0602f788d2f8f2b1aee3869c2ebc435/res/7d4357e4-522b-4f41-9112-528a90ee26db/6.0.jpg?resizeSmall&width=832&alpha=)
-
+![Alt text](http://king-images.qiniudn.com/6.0.jpg)
