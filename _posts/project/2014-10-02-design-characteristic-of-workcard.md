@@ -125,4 +125,4 @@ description: 传统做文件上传基本的方式是使用`Uploadify`这类的�
 
 
 ##相关文章
-javascript控制表单输入: [http://webfing.github.com/control-form-input](http://webfing.github.com/control-form-input)
+javascript控制表单输入: [http://webfing.github.com/control-form-input](http://webfing.github.com/javascript-control-form-input)
