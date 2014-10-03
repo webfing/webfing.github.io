@@ -105,7 +105,12 @@ category: study
 
 
 参考资料：
-https://github.com/marcuswestin/store.js
-http://mao.li/tag/userdata/
-http://wangye.org/blog/archives/65/
-http://www.planabc.net/2008/08/05/userdata_behavior/
+
+
+[https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
+
+[http://mao.li/tag/userdata/](http://mao.li/tag/userdata/)
+
+[http://wangye.org/blog/archives/65/](http://wangye.org/blog/archives/65/)
+
+[http://www.planabc.net/2008/08/05/userdata_behavior/](http://www.planabc.net/2008/08/05/userdata_behavior/)
