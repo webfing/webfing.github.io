@@ -268,7 +268,9 @@ http://nullprogram.com/blog/2013/02/08/
 ### chrome
 
 #### 宏观分析-Timeline
-http://king-images.qiniudn.com/js-memory-chrome-2.png./1412324241764.png)
+
+![Alt text](http://king-images.qiniudn.com/js-memory-chrome-2.png)
+
 
 #### 微观分析-Profiles
 
