@@ -7,7 +7,7 @@ category: study
 
 @(blog)[iframe, cross origin, same origin]
 
-> iframe是个奇怪的东西，很多书籍和文章都建议不要使用iframe，但在实践运用中，即看到很多站点或技术细节在使用iframe。
+> iframe是个奇葩，在很多属性上跟其它dom表现不一致，还有众多浏览兼容性问题，很多书籍和文章都建议不要使用iframe，但在实践运用中，即看到很多站点或技术细节在使用iframe，iframe还是有其用武之地的。
 
 ## iframe标签属性
 
@@ -22,8 +22,11 @@ category: study
     使用`background: transparent;`不起作用，兼容全部浏览器的做法是：
 
         <iframe allowtransparency="true" src="inner.html"></iframe>
+
 * 在HTTPS中不指定，或指定空的src的iframe会出错，解决方案：
+
         <iframe src="JavaScript:''"></iframe>
+
 所以为了全兼容性，如果是空的iframe，要指定src为`javascript:''`
 如果iframe的src除了可以引用url，如果内容是动态生成的，那么src可以用javascript来生成内容：
 
