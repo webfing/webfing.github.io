@@ -16,7 +16,7 @@ layout: home
                     <li><span>QQ:</span>1c20942e</li>
                     <li><span>age:</span>11000</li>
                     <li><span>birthplace:</span>1010011011100101000</li>
-                    <li><span>company:</span>\u71\u69\u66\u75\u6e</li>
+                    <li><span>company:</span>\u817e\u8baf</li>
                     <li><span>avatar:</span>aHR0cDovL3dlYmZpbmcucWluaXVkbi5jb20vbWouanBn</li>
                 </ul>
             </div>
